@@ -12,6 +12,7 @@
 		444431DD1FFDAB8000D5BDED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444431DB1FFDAB8000D5BDED /* Main.storyboard */; };
 		444431DF1FFDAB8000D5BDED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444431DE1FFDAB8000D5BDED /* Assets.xcassets */; };
 		444431E21FFDAB8000D5BDED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 444431E01FFDAB8000D5BDED /* LaunchScreen.storyboard */; };
+		444431EA1FFDBF7000D5BDED /* CheckImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444431E91FFDBF6F00D5BDED /* CheckImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		444431DE1FFDAB8000D5BDED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		444431E11FFDAB8000D5BDED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		444431E31FFDAB8000D5BDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444431E91FFDBF6F00D5BDED /* CheckImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CheckImageViewController.swift; path = ../../../CheckImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				444431D71FFDAB8000D5BDED /* AppDelegate.swift */,
-				444431D91FFDAB8000D5BDED /* ViewController.swift */,
 				444431DB1FFDAB8000D5BDED /* Main.storyboard */,
+				444431E91FFDBF6F00D5BDED /* CheckImageViewController.swift */,
+				444431D91FFDAB8000D5BDED /* ViewController.swift */,
 				444431DE1FFDAB8000D5BDED /* Assets.xcassets */,
 				444431E01FFDAB8000D5BDED /* LaunchScreen.storyboard */,
 				444431E31FFDAB8000D5BDED /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				444431DA1FFDAB8000D5BDED /* ViewController.swift in Sources */,
 				444431D81FFDAB8000D5BDED /* AppDelegate.swift in Sources */,
+				444431EA1FFDBF7000D5BDED /* CheckImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
